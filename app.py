@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 # MySQL DB connection
 db = pymysql.connect(
-    host='vamsi-databse.cxue66ieak7c.ap-south-1.rds.amazonaws.com',  # Replace with your RDS endpoint
+    host='nikh-database.cxue66ieak7c.ap-south-1.rds.amazonaws.com',  # Replace with your RDS endpoint
     user='admin',
-    password='Svamsi79955',
+    password='Nikhi1234!',
     database='userdb',
     cursorclass=pymysql.cursors.DictCursor
 )
