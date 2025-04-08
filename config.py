@@ -2,10 +2,10 @@ import pyodbc
 
 DATABASE_CONFIG = {
     'DRIVER': '{MySQL ODBC 8.0 Driver}',  # Make sure this driver is installed inside the container
-    'SERVER': 'vamsi-databse.cxue66ieak7c.ap-south-1.rds.amazonaws.com',
+    'SERVER': 'nikh-database.cxue66ieak7c.ap-south-1.rds.amazonaws.com',
     'DATABASE': 'userdb',
     'UID': 'admin',
-    'PWD': 'Svamsi79955',
+    'PWD': 'Nikhi1234!',
 }
 
 try:
